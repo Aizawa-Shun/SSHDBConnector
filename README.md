@@ -17,7 +17,14 @@ This project provides a tool to connect to a MySQL database through an SSH tunne
 ```bash
   git clone https://github.com/Aizawa-Shun/SSHDBConnector.git
 ```
-2. Configuration:
+
+2. Install required packages:
+
+```bash
+  pip install -r requirements.txt
+```
+
+3. Configuration:
 ```ini
 [SSH]
 ssh_host = your_ssh_host
